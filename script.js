@@ -26,21 +26,3 @@ async function sendMessage() {
     return "I don't understand that yet.";
   }
   
-
-// async function getAIResponse(message) {
-//     const response = await fetch("https://api.openai.com/v1/chat/completions", {
-//       method: "POST",
-//       headers: {
-//         "Content-Type": "application/json",
-//         "Authorization": "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" // Replace with your actual API key
-//       },
-//       body: JSON.stringify({
-//         model: "gpt-3.5-turbo",
-//         messages: [{ role: "user", content: message }]
-//       })
-//     });
-  
-//     const data = await response.json();
-//     return data.choices[0].message.content;
-//   }
-  
